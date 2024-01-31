@@ -15,7 +15,7 @@ Ensure you have the following dependencies installed on your system:
 ### Installation
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/DataScienceJobsAnalysis.git
+    git clone https://github.com/caiovalle2/DataScienceJobsAnalysis.git
     ```
 
 2. Navigate to the project directory:
@@ -27,9 +27,8 @@ Ensure you have the following dependencies installed on your system:
     ```bash
     docker build -t pyspark-jupyter .
     ```
-
-### Running the Analysis
-1. Launch the Docker container:
+    
+4. Launch the Docker container:
     ```bash
     docker-compose up
     ```
