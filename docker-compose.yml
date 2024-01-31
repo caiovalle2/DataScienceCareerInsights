@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  pyspark-jupyter:
+    image: pyspark-jupyter:latest  # Substitua pelo nome da imagem que você construiu
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./apps:/home/apps
+      - ./apps/datasets:/home/apps/datasets
